@@ -119,4 +119,7 @@ dist
 # configuration used for api auth
 secrets
 
+# uploads folder
+uploads
+
 # End of https://www.toptal.com/developers/gitignore/api/node
