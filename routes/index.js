@@ -5,9 +5,8 @@ const upload = multer({ dest: "./uploads/" });
 
 var router = express.Router();
 
-/* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express" });
+  res.render("index", { title: "mini-proxy" });
 });
 
 router.post("/form", upload.array("files", 3), async function (req, res) {
